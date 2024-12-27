@@ -1,0 +1,23 @@
+{
+  "name": "Dev Container",
+  "image": "ghcr.io/devcontainers/features/node:1",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.12"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",      
+        "ms-python.python",                          
+        "ms-python.black-formatter",
+        "esbenp.prettier-vscode",                     
+        "dbaeumer.vscode-eslint",                     
+        "dsznajder.es7-react-js-snippets",           
+        "ms-vscode.vscode-typescript-next",          
+        "ms-vscode-remote.remote-containers"         
+      ]
+    }
+  }
+}
